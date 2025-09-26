@@ -4,7 +4,7 @@
 
 ## About Cars Dataset
 ### Here, 
-### The data of different cars is given with their specifications. This data is available as a CSV file. We are going to analyze this data set using the Pandas DataFrame.
+### The data of different cars is given with their specifications. This data is available as a CSV file. I'm going to analyze this data set using the Pandas DataFrame.
 
  ``` python
 car.shape
@@ -29,7 +29,7 @@ car['Origin'].value_counts()
 ```
 
 
-## 4) - Remove all the records (rows) where Weight is above 4000.
+## 4) - Remove all the records where Weight is above 4000.
 ```python
 [~(car['Weight'] > 4000)]
 ```
